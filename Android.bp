@@ -3513,35 +3513,9 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "vendor.huawei.hardware.graphics.mediacomm@2.0-service",
-	owner: "huawei",
-	srcs: ["proprietary/vendor/bin/hw/vendor.huawei.hardware.graphics.mediacomm@2.0-service"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	relative_install_path: "hw",
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
 	name: "vendor.huawei.hardware.hisupl@1.0-service",
 	owner: "huawei",
 	srcs: ["proprietary/vendor/bin/hw/vendor.huawei.hardware.hisupl@1.0-service"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	relative_install_path: "hw",
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "vendor.huawei.hardware.libteec@2.0-service",
-	owner: "huawei",
-	srcs: ["proprietary/vendor/bin/hw/vendor.huawei.hardware.libteec@2.0-service"],
 	check_elf_files: false,
 	strip: {
 		none: true,
