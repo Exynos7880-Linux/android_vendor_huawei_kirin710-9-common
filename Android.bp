@@ -2947,17 +2947,6 @@ prebuilt_etc {
 }
 
 cc_prebuilt_binary {
-	name: "tee_auth_daemon",
-	owner: "huawei",
-	srcs: ["proprietary/bin/tee_auth_daemon"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-}
-
-cc_prebuilt_binary {
 	name: "32e6a847-ac89-4f81-8a13-f4ae50451d7f.sec",
 	owner: "huawei",
 	srcs: ["proprietary/vendor/bin/32e6a847-ac89-4f81-8a13-f4ae50451d7f.sec"],
