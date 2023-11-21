@@ -3514,9 +3514,6 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
 	name: "vendor.huawei.hardware.graphics.mediacomm@2.0-service",
-        vendor_available: true,
-        recovery_available: true,
-	
 	owner: "huawei",
 	srcs: ["proprietary/vendor/bin/hw/vendor.huawei.hardware.graphics.mediacomm@2.0-service"],
 	check_elf_files: false,
@@ -3543,9 +3540,6 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
 	name: "vendor.huawei.hardware.libteec@2.0-service",
-        vendor_available: true,
-        recovery_available: true,
-        
 	owner: "huawei",
 	srcs: ["proprietary/vendor/bin/hw/vendor.huawei.hardware.libteec@2.0-service"],
 	check_elf_files: false,
