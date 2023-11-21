@@ -170,8 +170,8 @@ PRODUCT_PACKAGES += \
     sensors.kirin710 \
     thermal.kirin710 \
     vendor.huawei.hardware.camera.factory@1.0-impl \
-    vendor.huawei.hardware.graphics.mediacomm@2.0-impl \
-    vendor.huawei.hardware.libteec@2.0-impl \
+    #vendor.huawei.hardware.graphics.mediacomm@2.0-impl \
+    #vendor.huawei.hardware.libteec@2.0-impl \
     vendor.huawei.hardware.perfgenius@2.0-impl \
     hwcam.ddt \
     hwcam.services \
@@ -220,9 +220,9 @@ PRODUCT_PACKAGES += \
     libril \
     libscenedetection \
     libstagefrighthw \
-    libteec \
-    libteec_eid \
-    libteec_vendor \
+    #libteec \
+    #libteec_eid \
+    #libteec_vendor \
     libxcollie \
     libhuaweiprocessing \
     liboffloadvisualizer \
@@ -246,8 +246,8 @@ PRODUCT_PACKAGES += \
     vendor.huawei.hardware.graphics.displayeffect@1.1 \
     vendor.huawei.hardware.graphics.displayeffect@1.2 \
     vendor.huawei.hardware.graphics.gpucommon@1.0 \
-    vendor.huawei.hardware.graphics.mediacomm@2.0 \
-    vendor.huawei.hardware.graphics.mediacomm@2.1 \
+    #vendor.huawei.hardware.graphics.mediacomm@2.0 \
+    #vendor.huawei.hardware.graphics.mediacomm@2.1 \
     vendor.huawei.hardware.hisiradio@1.0 \
     vendor.huawei.hardware.hisiradio@1.1 \
     vendor.huawei.hardware.hisupl@1.0 \
@@ -255,8 +255,8 @@ PRODUCT_PACKAGES += \
     vendor.huawei.hardware.hwfactoryinterface@1.1 \
     vendor.huawei.hardware.hwvibrator@1.0 \
     vendor.huawei.hardware.iawareperf@1.0 \
-    vendor.huawei.hardware.libteec@2.0 \
-    vendor.huawei.hardware.libteec@2.0.so_system \
+    #vendor.huawei.hardware.libteec@2.0 \
+    #vendor.huawei.hardware.libteec@2.0.so_system \
     vendor.huawei.hardware.perfgenius@2.0 \
     vendor.huawei.hardware.radio.chr@1.0 \
     vendor.huawei.hardware.radio.deprecated@1.0 \
@@ -308,8 +308,8 @@ PRODUCT_PACKAGES += \
     librttserver \
     libsmartpakit \
     vendor.huawei.hardware.rtt@1.0 \
-    vendor.huawei.hardware.graphics.mediacomm@2.0-service \
-    vendor.huawei.hardware.libteec@2.0-service \
+    #vendor.huawei.hardware.graphics.mediacomm@2.0-service \
+    #vendor.huawei.hardware.libteec@2.0-service \
     native_packages \
     tee_auth_daemon \
     32e6a847-ac89-4f81-8a13-f4ae50451d7f.sec \
@@ -358,9 +358,9 @@ PRODUCT_PACKAGES += \
     rild \
     vendor.huawei.hardware.biometrics.fingerprint@2.1-service \
     vendor.huawei.hardware.gnss@1.2-service \
-    vendor.huawei.hardware.graphics.mediacomm@2.0-service \
+    #vendor.huawei.hardware.graphics.mediacomm@2.0-service \
     vendor.huawei.hardware.hisupl@1.0-service \
-    vendor.huawei.hardware.libteec@2.0-service \
+    #vendor.huawei.hardware.libteec@2.0-service \
     vendor.huawei.hardware.perfgenius@2.0-service \
     vendor.huawei.hardware.sensors@1.0-service \
     oam_hisi \
